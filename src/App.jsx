@@ -7,6 +7,12 @@ import Picture from "./assets/Picture";
 import LoadMoreData from "./components/load-more-data";
 import TreeView from "./components/tree-view";
 import QRCodeGenerator from "./components/qr-code-generator";
+import LightDarkMode from "./components/light-dark-mode";
+import ScrollIndicator from "./components/scroll-indicator";
+import Tabs from "./components/custom-tabs/tabs";
+import TabTest from "./components/custom-tabs/tab-test";
+import Modal from "./components/custom-modal-popup/modal";
+import ModalTest from "./components/custom-modal-popup/modal-test";
 
 function App() {
   return (
@@ -25,7 +31,11 @@ function App() {
       {/* <LoadMoreData /> */}
       {/* Tree view component/menu UI component / recursive navigator menu */}
       {/* <TreeView menus={menus} /> */}
-      <QRCodeGenerator />
+      {/* <QRCodeGenerator /> */}
+      {/* <LightDarkMode /> */}
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+      {/* <TabTest /> */}
+      <ModalTest />
     </div>
   );
 }
